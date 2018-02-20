@@ -1,7 +1,5 @@
 package com.imscreed.imgurclient.viewmodel;
 
-import android.content.Context;
-import android.databinding.BaseObservable;
 import android.databinding.BindingAdapter;
 import android.widget.ImageView;
 

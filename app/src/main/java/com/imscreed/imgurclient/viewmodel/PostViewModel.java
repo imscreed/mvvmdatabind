@@ -1,7 +1,6 @@
 package com.imscreed.imgurclient.viewmodel;
 
 import android.content.Context;
-import android.databinding.BaseObservable;
 import android.databinding.ObservableInt;
 import android.support.annotation.NonNull;
 import android.util.Log;
@@ -15,7 +14,6 @@ import com.imscreed.imgurclient.services.ImgurService;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observable;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -27,10 +25,6 @@ import retrofit2.Response;
 
 public class PostViewModel {
     private Context context;
-    /**
-     * Provides data to the views
-     * Handles everything related to network calls and notify the views
-     * */
 
     public ObservableInt progressBar;
     private ImgurService imgurService;

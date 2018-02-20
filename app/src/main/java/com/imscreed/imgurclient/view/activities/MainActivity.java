@@ -2,7 +2,6 @@ package com.imscreed.imgurclient.view.activities;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -82,13 +81,4 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Failed to get data from server", Toast.LENGTH_SHORT).show();
         }
     };
-//
-//    @Override
-//    public void update(Observable observable, Object o) {
-//        if(observable instanceof PostViewModel){
-//            ImgurPostAdapter adapter = (ImgurPostAdapter) activityBinding.recyclerView.getAdapter();
-//            PostViewModel postViewModel = (PostViewModel) observable;
-//            adapter.setPosts(postViewModel.getPosts());
-//        }
-//    }
 }

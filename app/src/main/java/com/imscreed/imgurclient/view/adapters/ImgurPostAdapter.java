@@ -6,7 +6,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import com.imscreed.imgurclient.BR;
 import com.imscreed.imgurclient.R;
 import com.imscreed.imgurclient.databinding.PostItemLayoutBinding;
 import com.imscreed.imgurclient.model.ImgurPost;
